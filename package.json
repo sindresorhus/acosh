@@ -1,6 +1,6 @@
 {
   "name": "acosh",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ES6 Math.acosh() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/acosh",
