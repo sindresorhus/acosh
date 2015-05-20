@@ -1,0 +1,41 @@
+{
+  "name": "acosh",
+  "version": "0.0.0",
+  "description": "ES6 Math.acosh() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/acosh",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "es6",
+    "es2015",
+    "ecmascript",
+    "harmony",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "number",
+    "math",
+    "acosh",
+    "hyperbolic",
+    "arccosine"
+  ],
+  "dependencies": {
+    "number-is-nan": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
