@@ -1,7 +1,7 @@
 {
   "name": "acosh",
   "version": "1.0.0",
-  "description": "ES6 Math.acosh() ponyfill",
+  "description": "ES2015 Math.acosh() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/acosh",
   "author": {
@@ -19,10 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "es6",
     "es2015",
-    "ecmascript",
-    "harmony",
     "ponyfill",
     "polyfill",
     "shim",
