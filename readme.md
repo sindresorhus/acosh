@@ -1,25 +1,19 @@
-# acosh [![Build Status](https://travis-ci.org/sindresorhus/acosh.svg?branch=master)](https://travis-ci.org/sindresorhus/acosh)
+# acosh [![Build Status](https://travis-ci.com/sindresorhus/acosh.svg?branch=master)](https://travis-ci.com/sindresorhus/acosh)
 
 > ES2015 [`Math.acosh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh) [ponyfill](https://ponyfill.com)
-
 
 ## Install
 
 ```
-$ npm install --save acosh
+$ npm install acosh
 ```
 
 
 ## Usage
 
 ```js
-var acosh = require('acosh');
+const acosh = require('acosh');
 
 acosh(2);
 //=> 1.3169578969248166
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)

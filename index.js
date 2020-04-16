@@ -1,18 +1,18 @@
 'use strict';
 var numberIsNan = require('number-is-nan');
 
-module.exports = Math.acosh || function (x) {
-	if (numberIsNan(x) || x < 1) {
+module.exports = function (number) {
+	if (numberIsNan(number) || number < 1) {
 		return NaN;
 	}
 
-	if (x === 1) {
+	if (number === 1) {
 		return 0;
 	}
 
-	if (x === Infinity) {
-		return x;
+	if (number === Infinity) {
+		return number;
 	}
 
-	return Math.log(x / Math.E + Math.sqrt(x + 1) * Math.sqrt(x - 1) / Math.E) + 1;
+	return Math.log(number / Math.E + Math.sqrt(number + 1) * Math.sqrt(number - 1) / Math.E) + 1;
 };
