@@ -1,4 +1,4 @@
-# acosh [![Build Status](https://travis-ci.com/sindresorhus/acosh.svg?branch=master)](https://travis-ci.com/sindresorhus/acosh)
+# acosh
 
 > ES2015 [`Math.acosh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh) [ponyfill](https://ponyfill.com)
 
